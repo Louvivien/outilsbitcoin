@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+
+<HEAD>
+    <style>
+    .floating-card {
+        float: left;
+        margin: 15px;
+        max-width: 350px;
+        max-height: auto;
+
+                }
+    </style>
+
+    <title>
+            Outil d’analyse Bitcoin
+    </title>
+    <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+      </HEAD>
+<body>
+
+    <p class="h1">Outil d’analyse Bitcoin</p>
+
+
+    <div class="row">
+            <div class="col-sm-6">
+              <div class="floating-card card">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bold">Conversion Hexadécimal > Decimal</h5>
+                  <p class="card-text">
+                        Hexadécimal :  <input type="text" value="C921" id="hle0"><br>
+                        Decimal : <span type="text" id="decimal0"></span><br>
+                    </p>
+                    <button class="btn btn-primary" id="convertHexaDE">Convertir</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-sm-6">
+              <div class="floating-card card">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bold">Conversion Decimal > Hexadécimal</h5>
+                  <p class="card-text">
+                        Decimal : <br>
+                         <input type="text" value="172" id="deci0"><br>
+                        Hexadécimal : <span type="text" id="hexa0"></span><br></p>
+                        <button class="btn btn-primary" id="convertDeciHE">Convertir</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+                    <div class="floating-card card">
+                      <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Conversion Little Endian -> Hexadécimal</h5>
+                        <p class="card-text">
+                        Hexa Little Endian :  <input type="text" value="000001FF" id="hle"><br>
+                        Hexadécimal :  <span type="text" id="hexadecimal"></span><br>
+                        </p>
+                        <button class="btn btn-primary" id="convertHexaLE">Convertir</button>
+                      </div>
+                    </div>
+                  </div>
+
+            <div class="col-sm-6">
+                    <div class="floating-card card">
+                      <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Obtenir les infos d'un bloc</h5>
+                        <p class="card-text">
+                            BlockID :  <input type="text" id="blockid" value="0000000000000000189bba3564a63772107b5673c940c16f12662b3e8546b412" id="hle"><br>
+                        <span type="text" id="info"></span>
+                        <div id="r"></div>
+                             
+
+
+                        <br>
+
+                        </p>
+                        <button type="button"  class="btn btn-primary" id="aperçu"> getinfo </button>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+           
+
+
+
+
+
+
+          </div>
+
+
+
+
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="defi1.js"></script>
+
+
+
+    
+</body>
+
+</html>
+
