@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>
+        Outil de conversion
+    </title>
+</head>
+<style>
+.titre {
+    color: white;
+    font-weight:bold;
+    text-align: center;
+    background-color: #77b5fe;
+    font-size: 50px;
+}
+
+.gras {
+    font-weight:bold;
+}
+
+.centrer {
+    display: block;
+    margin : auto;}
+}
+
+.marge {margin-top:400px;}
+</style>
+<body>
+        <header id="head" ></header>
+        <h1 class="titre">Bienvenue dans l'outil de conversion d'Alyra</h1><br><br>
+
+        <div class="form-inline justify-content-center">
+	 <div class="form-group mb-2">
+		<div class="input-group-prepend">
+   		 <span class="input-group-text">Entrée</span>
+ 		 </div>
+ 		 <input type="text" class="form-control" id="entree">
+                         <select class="form-control" id="choix" size = "1" name="Liste">
+                                <option selected>type</option>
+                                <option>Décimal</option>
+                                <option>Hexadécimal</option>
+                                <option>Binaire</option>
+				<option>Hash de block</option>
+                        </select>
+		</div>
+	  </div>
+	    </div><br>
+
+    <button class="btn-lg btn-primary gras col-md-4 centrer" id="bouton">Convertir</button><br>
+
+<h2 class="border-top border-dark gras font-italic text-muted text-center"><ins>Nombre:</ins></h2><br>
+
+	<div class="form-row justify-content-center">
+        <div class="form-group col-md-2">
+        <label  class="form-label gras" for="Binaire">Binaire:</label>
+	<input class="btn-lg form-control" id="Binaire">
+	</div>
+	<div class="form-group col-md-2">
+        <label  class="form-label gras" for="Décimal">Décimal:</label>
+	<input class="btn-lg form-control" id="Décimal">
+	</div>
+	<div class="form-group col-md-2">
+        <label  class="form-label gras" for="Hexadécimal">Hexadécimal:</label>
+	<input class="btn-lg form-control" id="Hexadécimal">
+	</div>
+	<div class="form-group col-md-2">
+        <label  class="form-label gras" for="Big Endian">Big Endian:</label>
+	<input class="btn-lg form-control" id="Big Endian">
+	</div>
+	<div class="form-group col-md-2">
+        <label  class="form-label gras" for="Little Endian">Little Endian:</label>
+	<input class="btn-lg form-control" id="Little Endian">
+	</div>
+	</div><br>
+
+	<div class="border-bottom border-dark form-row justify-content-center">
+        <div class="form-group col-md-2">
+        <label  class="form-label gras" for="varInt">varInt:</label>
+	<input class="btn-lg form-control" id="varInt">
+	</div>
+	</div>
+
+	<h2 class="gras font-italic text-muted text-center"><ins>Block:</ins></h2><br>
+
+	<div class="form-row justify-content-center">
+        <div class="form-group col-md-2">
+        <label  class="form-label gras" for="Hash">Hash:</label>
+	<input class="btn-lg form-control" id="Hash">
+	</div>
+	<div class="form-group col-md-2">
+        <label  class="form-label gras" for="Hauteur">Hauteur:</label>
+	<input class="btn-lg form-control" id="Hauteur">
+	</div>
+	<div class="form-group col-md-2">
+        <label  class="form-label gras" for="NombreTransaction">Nombre de Transactions:</label>
+	<input class="btn-lg form-control" id="NombreTransaction">
+	</div>
+	<div class="form-group col-md-2">
+        <label  class="form-label gras" for="Fees">Fees:</label>
+	<input class="btn-lg form-control" id="Fees">
+	</div>
+	<div class="form-group col-md-2">
+        <label  class="form-label gras" for="Taille">Taille (bytes):</label>
+	<input class="btn-lg form-control" id="Taille">
+	</div>
+	</div>
+
+    <script>
+    
+        
+    </script>
+    </body>
+    </html>  
